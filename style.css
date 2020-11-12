@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    background: #F2723D;
+    background: linear-gradient(to right, #F2723D, #B583CC);
+    background-size: 800% 800%;
+    animation: bgColor 10s ease infinite;
+}
+@keyframes bgColor {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.calculator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-color: black;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: thin;
+}
+#calc-value {
+    border-color: blue;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: thin;
+    background-color: white;
+}
+button {
+    padding: 20px 30px;
+    margin: 10px 10px 10px 10px;
+    background-color: transparent;
+}
+
+#equal {
+    margin-left: 6px;
+}
+
+#reset {
+    padding: 20px 77px;
+}
